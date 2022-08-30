@@ -76,7 +76,7 @@ extern void vLoggingPrintf( const char * pcFormatString,
  * @note https://docs.microsoft.com/azure/iot-dps/concepts-service#id-scope
  * 
  */
-#define democonfigID_SCOPE                  "<YOUR ID SCOPE HERE>"
+#define democonfigID_SCOPE                  "0ne0070268F"
 
 /**
  * @brief Registration Id of provisioning service
@@ -85,7 +85,7 @@ extern void vLoggingPrintf( const char * pcFormatString,
  *
  *  @note https://docs.microsoft.com/azure/iot-dps/concepts-service#registration-id
  */
-#define democonfigREGISTRATION_ID           "<YOUR REGISTRATION ID HERE>"
+#define democonfigREGISTRATION_ID           "deep-drive"
 
 #endif // democonfigENABLE_DPS_SAMPLE
 
@@ -111,7 +111,7 @@ extern void vLoggingPrintf( const char * pcFormatString,
  * @brief Device symmetric key
  *
  */
-#define democonfigDEVICE_SYMMETRIC_KEY      "<Symmetric key>"
+#define democonfigDEVICE_SYMMETRIC_KEY      "/6xaKwS+emfImlzXbeIgocYtJAt1YsDPSkRY5TNj0ZHQjTUcQ9XQDfdQpSY/CVWNGquC1rPHt7XmPGjE9cIgDA=="
 
 /**
  * @brief Client's X509 Certificate.
