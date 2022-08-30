@@ -65,9 +65,7 @@ if(NOT (TARGET SAMPLE::TRANSPORT::MBEDTLS))
 endif()
 
 # Add board specific demo
-if(BOARD_L STREQUAL "stm32F767zi")
-    set(BOARD_SOURCE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/projects/${VENDOR}/${BOARD_L}/cm7)
-elseif(BOARD_L STREQUAL "stm32h745i-disco")
+if(BOARD_L STREQUAL "stm32h745i-disco")
     set(BOARD_SOURCE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/projects/${VENDOR}/${BOARD_L}/cm7)
 else()
     set(BOARD_SOURCE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/projects/${VENDOR}/${BOARD_L})
