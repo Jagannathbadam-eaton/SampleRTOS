@@ -45,20 +45,20 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     FreeRTOSPlus::Utilities::logging
     FreeRTOSPlus::ThirdParty::mbedtls
     LWIP
-    HAL::STM32::F7::RCC
-    HAL::STM32::F7::RCCEx
-    HAL::STM32::F7::SPI
-    HAL::STM32::F7::RTC
-    HAL::STM32::F7::UART
-    HAL::STM32::F7::DMA
-    HAL::STM32::F7::PWR
-    HAL::STM32::F7::PWREx
-    HAL::STM32::F7::GPIO
-    HAL::STM32::F7::CORTEX
-    HAL::STM32::F7::RNG
-    HAL::STM32::F7::TIM
-    HAL::STM32::F7::TIMEx
-    HAL::STM32::F7::UARTEx
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
+    HAL::STM32::F7
     CMSIS::STM32::F767ZI
     STM32::NoSys
     az::iot_middleware::freertos
